@@ -987,9 +987,6 @@
             "fetchCurrencies": {
                 "currencyIdAndCode": "https://app.travis-ci.com/github/ccxt/ccxt/builds/268371892#L2559"
             },
-            "fetchTrades":  {
-                "timestamp": "timestamp is in decimals"
-            },
             "ticker": {
                 "bid":"messed bid-ask",
                 "baseVolume": "https://app.travis-ci.com/github/ccxt/ccxt/builds/262963390#L3138"
@@ -1675,6 +1672,7 @@
     "coinlist": {
         "skipMethods": {
             "loadMarkets": {
+                "currencyIdAndCode":"https://github.com/ccxt/ccxt/actions/runs/13326043833/job/37219610640?pr=25274#step:9:215",
                 "precision": "ammount is sometimes 0"
             },
             "ticker": {
